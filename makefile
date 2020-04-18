@@ -12,7 +12,7 @@
 # 	gcc -o test *.o -L/usr/local/opt/openssl/lib -lcrypto
 
 simple:
-	gcc  -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer  -c *.c -I/usr/local/opt/openssl/include && gcc -o farl *.o -L/usr/local/opt/openssl/lib -lcrypto
+	gcc  -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer  -c *.c -I/usr/local/opt/openssl/include && gcc -o fatseal *.o -L/usr/local/opt/openssl/lib -lcrypto
 
 clean:
 	rm -f *.o test
