@@ -1,4 +1,4 @@
-#1 run FatSeal
+#  run FatSeal
 1. make simple
 2. ./fatseal
 
